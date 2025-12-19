@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>CSUDH Mathematics Texts</title>
+
+  <!-- Match the PreTeXt/Runestone look by using the same CSS links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+  <!-- These are the same stylesheet paths used by your PreTeXt site -->
+  <link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css" />
+  <link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css" />
+
+  <style>
+    /* Tiny helper styles so the wrapper reads nicely without fighting the theme */
+    .course-list { margin-top: 1.25rem; }
+    .course-list li { margin: 0.6rem 0; }
+    .course-note { opacity: 0.85; }
+  </style>
+</head>
+
+<body>
+  <!-- Similar “skip link” behavior -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- Keep structure simple; PreTeXt CSS will handle typography/layout -->
+  <div class="pretext-book">
+    <header class="ptx-page-title" style="padding: 1.25rem 1rem 0;">
+      <h1 class="heading">
+        <span class="title">CSUDH Mathematics Texts</span>
+      </h1>
+      <p class="course-note">
+        Select a course to open the online text.
+      </p>
+    </header>
+
+    <main id="main-content" class="ptx-main" style="padding: 0 1rem 2rem;">
+      <section class="ptx-content">
+        <ul class="course-list">
+          <!-- Update hrefs if your published filenames differ -->
+          <li>
+            <a href="precalc103.html">MAT 103 — Introduction to College Algebra</a>
+          </li>
+          <li>
+            <a href="mat151.html">MAT 151 — College Algebra with Trigonometry</a>
+          </li>
+          <li>
+            <a href="mat153.html">MAT 153 — Pre-Calculus with Trigonometry</a>
+          </li>
+        </ul>
+
+        <p class="course-note" style="margin-top: 1.25rem;">
+          If MAT 151/153 live on a different GitHub Pages site, replace the links with full URLs.
+        </p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
